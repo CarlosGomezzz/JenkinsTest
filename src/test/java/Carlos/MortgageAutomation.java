@@ -19,13 +19,13 @@ public class MortgageAutomation {
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		driver.get("https://www.mortgagecalculator.org/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	@Test
 	public void Testcase1() throws InterruptedException {
-		driver.get("https://www.mortgagecalculator.org/");
 		driver.findElement(By.xpath("//input[contains(@id, 'homeval')]")).sendKeys("500000");
 		driver.findElement(By.xpath("//input[contains(@id, 'downpayment')]")).sendKeys("30000");
 		driver.findElement(By.xpath("//input[contains(@id, 'loanamt')]")).clear();
