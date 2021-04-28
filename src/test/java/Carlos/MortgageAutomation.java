@@ -31,6 +31,12 @@ public class MortgageAutomation {
 		driver.findElement(By.xpath("//input[contains(@id, 'loanamt')]")).clear();
 		driver.findElement(By.xpath("//input[contains(@id, 'loanamt')]")).sendKeys("470000");
 		driver.findElement(By.xpath("//input[contains(@id, 'intrstsrate')]")).sendKeys("2.5");
+
+		driver.findElement(By.xpath("//input[contains(@id, 'loanterm')]")).sendKeys("30");
+		driver.findElement(By.xpath("//select[contains(@name, 'param[start_month]')]")).click();
+		driver.findElement(By.xpath("//option[contains(@value, '10')]")).click();
+		driver.findElement(By.xpath("//input[contains(@id, 'start_year')]")).sendKeys("2022");
+
 		Thread.sleep(5000);
 	}
 
