@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9118" started-at="2021-04-27T22:30:50 EDT" finished-at="2021-04-27T22:30:59 EDT">
+  <suite name="Default suite" duration-ms="12856" started-at="2021-04-28T21:55:51 EDT" finished-at="2021-04-28T21:56:04 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9118" started-at="2021-04-27T22:30:50 EDT" finished-at="2021-04-27T22:30:59 EDT">
-      <class name="Carlos.volunteerSignUp">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Carlos.volunteerSignUp@2c039ac6]" name="setup" is-config="true" duration-ms="4269" started-at="2021-04-27T22:30:50 EDT" finished-at="2021-04-27T22:30:54 EDT">
+    <test name="Default test" duration-ms="12856" started-at="2021-04-28T21:55:51 EDT" finished-at="2021-04-28T21:56:04 EDT">
+      <class name="Carlos.alerts">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Carlos.alerts@2c039ac6]" name="setup" is-config="true" duration-ms="6085" started-at="2021-04-28T21:55:51 EDT" finished-at="2021-04-28T21:55:57 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Carlos.volunteerSignUp@2c039ac6]" name="test" duration-ms="1654" started-at="2021-04-27T22:30:54 EDT" finished-at="2021-04-27T22:30:56 EDT">
+        <test-method status="PASS" signature="test()[pri:0, instance:Carlos.alerts@2c039ac6]" name="test" duration-ms="6525" started-at="2021-04-28T21:55:57 EDT" finished-at="2021-04-28T21:56:04 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="end()[pri:0, instance:Carlos.volunteerSignUp@2c039ac6]" name="end" is-config="true" duration-ms="3165" started-at="2021-04-27T22:30:56 EDT" finished-at="2021-04-27T22:30:59 EDT">
+        <test-method status="PASS" signature="end()[pri:0, instance:Carlos.alerts@2c039ac6]" name="end" is-config="true" duration-ms="193" started-at="2021-04-28T21:56:04 EDT" finished-at="2021-04-28T21:56:04 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-      </class> <!-- Carlos.volunteerSignUp -->
+      </class> <!-- Carlos.alerts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
