@@ -9,6 +9,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -73,7 +76,8 @@ public class homework2 {
 		driver.findElement(By.xpath("/html/body/div[2]/form[1]/button")).click();
 
 		// list of tabs
-		Thread.sleep(3000);
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//*[@id=\"social-sidebar-menu\"]")));
 		System.out.println();
 		List<WebElement> tabs = driver.findElements(By.xpath("//*[@id=\"social-sidebar-menu\"]"));
 		for (int i = 0; i < tabs.size(); i++) {

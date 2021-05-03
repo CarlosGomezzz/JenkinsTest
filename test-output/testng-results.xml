@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22653" started-at="2021-05-03T19:12:08 EDT" finished-at="2021-05-03T19:12:30 EDT">
+  <suite name="Default suite" duration-ms="21667" started-at="2021-05-03T19:47:02 EDT" finished-at="2021-05-03T19:47:24 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22653" started-at="2021-05-03T19:12:08 EDT" finished-at="2021-05-03T19:12:30 EDT">
+    <test name="Default test" duration-ms="21667" started-at="2021-05-03T19:47:02 EDT" finished-at="2021-05-03T19:47:24 EDT">
       <class name="Carlos.homework2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Carlos.homework2@2c039ac6]" name="setup" is-config="true" duration-ms="3840" started-at="2021-05-03T19:12:08 EDT" finished-at="2021-05-03T19:12:12 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Carlos.homework2@2c039ac6]" name="setup" is-config="true" duration-ms="4518" started-at="2021-05-03T19:47:02 EDT" finished-at="2021-05-03T19:47:07 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Carlos.homework2@2c039ac6]" name="test" duration-ms="15629" started-at="2021-05-03T19:12:12 EDT" finished-at="2021-05-03T19:12:27 EDT">
+        <test-method status="PASS" signature="test()[pri:0, instance:Carlos.homework2@2c039ac6]" name="test" duration-ms="13950" started-at="2021-05-03T19:47:07 EDT" finished-at="2021-05-03T19:47:21 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="end()[pri:0, instance:Carlos.homework2@2c039ac6]" name="end" is-config="true" duration-ms="3130" started-at="2021-05-03T19:12:27 EDT" finished-at="2021-05-03T19:12:30 EDT">
+        <test-method status="PASS" signature="end()[pri:0, instance:Carlos.homework2@2c039ac6]" name="end" is-config="true" duration-ms="3136" started-at="2021-05-03T19:47:21 EDT" finished-at="2021-05-03T19:47:24 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
