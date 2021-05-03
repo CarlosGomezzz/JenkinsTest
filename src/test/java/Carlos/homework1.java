@@ -57,6 +57,18 @@ public class homework1 {
 		WebElement arrow = driver.findElement(By.xpath("//*[@id=\"resizable\"]/div[3]"));
 		Thread.sleep(2000);
 		action.dragAndDropBy(arrow, 50, 50).build().perform();
+		driver.switchTo().defaultContent();
+		Thread.sleep(2000);
+
+		// sortable
+		driver.findElement(By.xpath("//*[@id=\"sidebar\"]/aside[1]/ul/li[5]/a")).click();
+		WebElement iframe4 = driver.findElement(By.tagName("iframe"));
+		System.out.println(iframe4.getSize());
+		driver.switchTo().frame(iframe4);
+		WebElement element1 = driver.findElement(By.xpath("//*[@id=\"sortable\"]/li[1]"));
+		WebElement element6 = driver.findElement(By.xpath("//*[@id=\"sortable\"]/li[6]"));
+		action.clickAndHold(element1).moveToElement(element6).moveByOffset(0, 10).release().build().perform();
+		Thread.sleep(2000);
 	}
 
 	@AfterTest
