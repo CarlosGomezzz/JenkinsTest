@@ -1,11 +1,11 @@
 package Carlos;
 
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import java.util.concurrent.TimeUnit;
 
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,7 +18,7 @@ public class CheckBoxes {
 
 	WebDriver driver;
 
-	@Before
+	@BeforeMethod
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
@@ -47,7 +47,7 @@ public class CheckBoxes {
 		Thread.sleep(3000);
 	}
 
-	@After
+	@AfterMethod
 	public void end() {
 		driver.close();
 	}

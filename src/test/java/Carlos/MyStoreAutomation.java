@@ -1,12 +1,11 @@
 package Carlos;
 
-import static org.junit.Assert.assertEquals;
-
+import static org.testng.AssertJUnit.assertEquals;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import java.util.concurrent.TimeUnit;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,7 +17,7 @@ public class MyStoreAutomation {
 
 	WebDriver driver;
 
-	@Before
+	@BeforeMethod
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
@@ -54,7 +53,7 @@ public class MyStoreAutomation {
 		assertEquals(text, expectedSearchResult);
 	}
 
-	@After
+	@AfterMethod
 	public void end() {
 		driver.close();
 	}

@@ -1,25 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="9" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21667" started-at="2021-05-03T19:47:02 EDT" finished-at="2021-05-03T19:47:24 EDT">
+  <suite name="Suite" duration-ms="190" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
     <groups>
+      <group name="smoke test">
+        <method signature="testNG_Annotation.test3()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="test3" class="TestNG.testNG_Annotation"/>
+      </group> <!-- smoke test -->
     </groups>
-    <test name="Default test" duration-ms="21667" started-at="2021-05-03T19:47:02 EDT" finished-at="2021-05-03T19:47:24 EDT">
-      <class name="Carlos.homework2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Carlos.homework2@2c039ac6]" name="setup" is-config="true" duration-ms="4518" started-at="2021-05-03T19:47:02 EDT" finished-at="2021-05-03T19:47:07 EDT">
+    <test name="Test" duration-ms="60" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+      <class name="TestNG.testNG_Annotation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Carlos.homework2@2c039ac6]" name="test" duration-ms="13950" started-at="2021-05-03T19:47:07 EDT" finished-at="2021-05-03T19:47:21 EDT">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="end()[pri:0, instance:Carlos.homework2@2c039ac6]" name="end" is-config="true" duration-ms="3136" started-at="2021-05-03T19:47:21 EDT" finished-at="2021-05-03T19:47:24 EDT">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- end -->
-      </class> <!-- Carlos.homework2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="test1" duration-ms="5" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="test3" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="test4" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" depends-on-methods="TestNG.testNG_Annotation.test1" finished-at="2021-05-04T21:19:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.testNG_Annotation -->
+    </test> <!-- Test -->
+    <test name="test2" duration-ms="17" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+      <class name="TestNG.testNG_Annotation">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuit()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="afterSuit" is-config="true" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- TestNG.testNG_Annotation -->
+      <class name="TestNG.dataProvider">
+        <test-method status="PASS" signature="addItems(java.lang.Integer,java.lang.Integer)[pri:0, instance:TestNG.dataProvider@64f6106c]" name="addItems" duration-ms="2" started-at="2021-05-04T21:19:10 EDT" data-provider="example1" finished-at="2021-05-04T21:19:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItems -->
+        <test-method status="PASS" signature="addItems(java.lang.Integer,java.lang.Integer)[pri:0, instance:TestNG.dataProvider@64f6106c]" name="addItems" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" data-provider="example1" finished-at="2021-05-04T21:19:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItems -->
+        <test-method status="PASS" signature="addItems(java.lang.Integer,java.lang.Integer)[pri:0, instance:TestNG.dataProvider@64f6106c]" name="addItems" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" data-provider="example1" finished-at="2021-05-04T21:19:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItems -->
+        <test-method status="PASS" signature="addItems(java.lang.Integer,java.lang.Integer)[pri:0, instance:TestNG.dataProvider@64f6106c]" name="addItems" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" data-provider="example1" finished-at="2021-05-04T21:19:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItems -->
+      </class> <!-- TestNG.dataProvider -->
+    </test> <!-- test2 -->
+  </suite> <!-- Suite -->
 </testng-results>

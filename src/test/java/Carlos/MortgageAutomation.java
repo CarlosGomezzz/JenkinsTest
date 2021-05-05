@@ -1,10 +1,10 @@
 package Carlos;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import java.util.concurrent.TimeUnit;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +15,7 @@ public class MortgageAutomation {
 
 	WebDriver driver;
 
-	@Before
+	@BeforeMethod
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
@@ -40,7 +40,7 @@ public class MortgageAutomation {
 		Thread.sleep(5000);
 	}
 
-	@After
+	@AfterMethod
 	public void end() {
 		driver.close();
 	}

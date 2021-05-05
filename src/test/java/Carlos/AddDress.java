@@ -1,5 +1,7 @@
 package Carlos;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import static org.testng.Assert.assertEquals;
 
 import java.util.concurrent.TimeUnit;
@@ -55,7 +57,7 @@ public class AddDress {
 
 		String actualAuth = driver.findElement(By.xpath("//*[@id=\"columns\"]/div[1]/span[2]")).getText();
 
-		assertEquals(actualAuth, "Authentication");
+		AssertJUnit.assertEquals(actualAuth, "Authentication");
 
 		Thread.sleep(3000);
 	}

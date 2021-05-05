@@ -1,10 +1,10 @@
 package Carlos;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 
 public class JunitIntroTest {
 
@@ -23,12 +23,12 @@ public class JunitIntroTest {
 		System.out.println("TEST 3");
 	}
 
-	@Before
+	@BeforeMethod
 	public void beforeAnnotation() {
 		System.out.println("Create connection!!");
 	}
 
-	@After
+	@AfterMethod
 	public void afterAnnotation() {
 		System.out.println("Close Connection!!");
 	}
