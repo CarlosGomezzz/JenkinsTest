@@ -1,146 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="9" passed="7">
+<testng-results skipped="0" failed="0" ignored="1" total="11" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="190" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+  <suite name="Suite" duration-ms="24696" started-at="2021-05-06T19:14:31 EDT" finished-at="2021-05-06T19:14:56 EDT">
     <groups>
-      <group name="smoke test">
-        <method signature="testNG_Annotation.test3()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="test3" class="TestNG.testNG_Annotation"/>
-      </group> <!-- smoke test -->
+      <group name="windowHandle">
+        <method signature="TestNG_XML_Practice.NewMessage_HW()[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="NewMessage_HW" class="TestNG.TestNG_XML_Practice"/>
+        <method signature="TestNG_XML_Practice.WindowHandle_HW()[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="WindowHandle_HW" class="TestNG.TestNG_XML_Practice"/>
+      </group> <!-- windowHandle -->
     </groups>
-    <test name="Test" duration-ms="60" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
-      <class name="TestNG.testNG_Annotation">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+    <test name="Test" duration-ms="24696" started-at="2021-05-06T19:14:31 EDT" finished-at="2021-05-06T19:14:56 EDT">
+      <class name="TestNG.TestNG_XML_Practice">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="setup" is-config="true" duration-ms="6550" started-at="2021-05-06T19:14:32 EDT" finished-at="2021-05-06T19:14:38 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AlertBox_HW()[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="AlertBox_HW" duration-ms="2127" started-at="2021-05-06T19:14:38 EDT" finished-at="2021-05-06T19:14:40 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+        </test-method> <!-- AlertBox_HW -->
+        <test-method status="PASS" signature="ContacInfoRec(java.lang.String)[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="ContacInfoRec" duration-ms="1017" started-at="2021-05-06T19:14:40 EDT" data-provider="contactInfo" finished-at="2021-05-06T19:14:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Carlos]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="test1" duration-ms="5" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+        </test-method> <!-- ContacInfoRec -->
+        <test-method status="PASS" signature="ContacInfoRec(java.lang.String)[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="ContacInfoRec" duration-ms="461" started-at="2021-05-06T19:14:41 EDT" data-provider="contactInfo" finished-at="2021-05-06T19:14:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carlos@carlos.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+        </test-method> <!-- ContacInfoRec -->
+        <test-method status="PASS" signature="ContacInfoRec(java.lang.String)[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="ContacInfoRec" duration-ms="400" started-at="2021-05-06T19:14:42 EDT" data-provider="contactInfo" finished-at="2021-05-06T19:14:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5555555555]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+        </test-method> <!-- ContacInfoRec -->
+        <test-method status="PASS" signature="ContacInfoRec(java.lang.String)[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="ContacInfoRec" duration-ms="363" started-at="2021-05-06T19:14:42 EDT" data-provider="contactInfo" finished-at="2021-05-06T19:14:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="test3" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+        </test-method> <!-- ContacInfoRec -->
+        <test-method status="PASS" signature="ContacInfoRec(java.lang.String)[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="ContacInfoRec" duration-ms="374" started-at="2021-05-06T19:14:42 EDT" data-provider="contactInfo" finished-at="2021-05-06T19:14:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TechCircle]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+        </test-method> <!-- ContacInfoRec -->
+        <test-method status="PASS" signature="ContacInfoRec(java.lang.String)[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="ContacInfoRec" duration-ms="328" started-at="2021-05-06T19:14:43 EDT" data-provider="contactInfo" finished-at="2021-05-06T19:14:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sup]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+        </test-method> <!-- ContacInfoRec -->
+        <test-method status="PASS" signature="NewMessage_HW()[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="NewMessage_HW" duration-ms="4488" started-at="2021-05-06T19:14:43 EDT" finished-at="2021-05-06T19:14:48 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="test4" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" depends-on-methods="TestNG.testNG_Annotation.test1" finished-at="2021-05-04T21:19:10 EDT">
+        </test-method> <!-- NewMessage_HW -->
+        <test-method status="PASS" signature="TimingAlert_HW()[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="TimingAlert_HW" duration-ms="3224" started-at="2021-05-06T19:14:48 EDT" finished-at="2021-05-06T19:14:51 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+        </test-method> <!-- TimingAlert_HW -->
+        <test-method status="PASS" signature="WindowHandle_HW()[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="WindowHandle_HW" duration-ms="2174" started-at="2021-05-06T19:14:51 EDT" finished-at="2021-05-06T19:14:53 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
+        </test-method> <!-- WindowHandle_HW -->
+        <test-method status="PASS" signature="end()[pri:0, instance:TestNG.TestNG_XML_Practice@38bc8ab5]" name="end" is-config="true" duration-ms="3104" started-at="2021-05-06T19:14:53 EDT" finished-at="2021-05-06T19:14:56 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- TestNG.testNG_Annotation -->
+        </test-method> <!-- end -->
+      </class> <!-- TestNG.TestNG_XML_Practice -->
     </test> <!-- Test -->
-    <test name="test2" duration-ms="17" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
-      <class name="TestNG.testNG_Annotation">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="afterSuit()[pri:0, instance:TestNG.testNG_Annotation@29b5cd00]" name="afterSuit" is-config="true" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" finished-at="2021-05-04T21:19:10 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuit -->
-      </class> <!-- TestNG.testNG_Annotation -->
-      <class name="TestNG.dataProvider">
-        <test-method status="PASS" signature="addItems(java.lang.Integer,java.lang.Integer)[pri:0, instance:TestNG.dataProvider@64f6106c]" name="addItems" duration-ms="2" started-at="2021-05-04T21:19:10 EDT" data-provider="example1" finished-at="2021-05-04T21:19:10 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addItems -->
-        <test-method status="PASS" signature="addItems(java.lang.Integer,java.lang.Integer)[pri:0, instance:TestNG.dataProvider@64f6106c]" name="addItems" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" data-provider="example1" finished-at="2021-05-04T21:19:10 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addItems -->
-        <test-method status="PASS" signature="addItems(java.lang.Integer,java.lang.Integer)[pri:0, instance:TestNG.dataProvider@64f6106c]" name="addItems" duration-ms="1" started-at="2021-05-04T21:19:10 EDT" data-provider="example1" finished-at="2021-05-04T21:19:10 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addItems -->
-        <test-method status="PASS" signature="addItems(java.lang.Integer,java.lang.Integer)[pri:0, instance:TestNG.dataProvider@64f6106c]" name="addItems" duration-ms="0" started-at="2021-05-04T21:19:10 EDT" data-provider="example1" finished-at="2021-05-04T21:19:10 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[55]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addItems -->
-      </class> <!-- TestNG.dataProvider -->
-    </test> <!-- test2 -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,5 +1,7 @@
 package Carlos;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import static org.testng.AssertJUnit.assertEquals;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
@@ -50,7 +52,7 @@ public class MyStoreAutomation {
 
 		String expectedSearchResult = "\"SHIRT\"";
 
-		assertEquals(text, expectedSearchResult);
+		AssertJUnit.assertEquals(text, expectedSearchResult);
 	}
 
 	@AfterMethod

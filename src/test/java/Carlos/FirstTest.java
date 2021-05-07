@@ -1,5 +1,7 @@
 package Carlos;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import static org.testng.AssertJUnit.assertTrue;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
@@ -19,7 +21,7 @@ public class FirstTest {
 
 		boolean exist = driver.findElement(By.xpath("//button[contains(@name, 'login')]")).isDisplayed();
 
-		assertTrue(exist);
+		AssertJUnit.assertTrue(exist);
 
 
 	}

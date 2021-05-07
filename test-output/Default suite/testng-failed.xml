@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.dataProvider">
+      <class name="TestNG.TestNG_XML_Practice">
         <methods>
-          <include name="addItems"/>
+          <include name="ContacInfoRec"/>
+          <include name="setup"/>
+          <include name="end"/>
         </methods>
-      </class> <!-- TestNG.dataProvider -->
+      </class> <!-- TestNG.TestNG_XML_Practice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
