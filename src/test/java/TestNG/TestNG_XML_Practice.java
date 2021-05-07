@@ -142,6 +142,8 @@ public class TestNG_XML_Practice {
 
 		driver.findElement(By.xpath("//*[@id=\"presscore-contact-form-widget-3\"]/form/p/a[1]")).click();
 
+		
+		
 	}
 
 	@AfterTest
